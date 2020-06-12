@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1EBAAD">
+
+    <TextView
+        android:id="@+id/idSupp"
+        android:layout_width="675dp"
+        android:layout_height="51dp"
+        android:background="#921EADAF"
+        android:text="@string/supportive"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#060007"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button"
+        app:layout_constraintVertical_bias="0.445" />
+
+    <TextView
+        android:id="@+id/idAppVersion"
+        android:layout_width="733dp"
+        android:layout_height="59dp"
+        android:background="#98EAE4E4"
+        android:text="@string/app_version"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#9C27B0"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button"
+        app:layout_constraintVertical_bias="0.888" />
+
+    <TextView
+        android:id="@+id/idSendFeedback"
+        android:layout_width="716dp"
+        android:layout_height="50dp"
+        android:background="#98EAE4E4"
+        android:text="@string/send_feedback"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#9C27B0"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button"
+        app:layout_constraintVertical_bias="0.774" />
+
+    <TextView
+        android:id="@+id/idHelp"
+        android:layout_width="731dp"
+        android:layout_height="59dp"
+        android:background="#98EAE4E4"
+        android:text="@string/help"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#9C27B0"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.557" />
+
+    <TextView
+        android:id="@+id/idAboutApp"
+        android:layout_width="711dp"
+        android:layout_height="52dp"
+        android:background="#98EAE4E4"
+        android:text="@string/about_application"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#9C27B0"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663" />
+
+    <TextView
+        android:id="@+id/idGeneral"
+        android:layout_width="716dp"
+        android:layout_height="44dp"
+        android:background="#921EADAF"
+        android:text="@string/general"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#0B000C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="680dp"
+        android:layout_height="86dp"
+        android:background="#17A4A6"
+        android:text="@string/settings"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="103dp"
+        android:layout_height="43dp"
+        android:text="@string/v1_0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button"
+        app:layout_constraintVertical_bias="0.877"
+        tools:text="V1.0.1" />
+
+    <Switch
+        android:id="@+id/idPermission"
+        android:layout_width="402dp"
+        android:layout_height="61dp"
+        android:background="#98EAE4E4"
+        android:checked="true"
+        android:switchTextAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:text="@string/permission"
+        android:textColor="#9C27B0"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.198" />
+
+    <Switch
+        android:id="@+id/idNotification"
+        android:layout_width="402dp"
+        android:layout_height="61dp"
+        android:background="#98EAE4E4"
+        android:switchTextAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:text="@string/push_notifications"
+        android:textColor="#9C27B0"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
