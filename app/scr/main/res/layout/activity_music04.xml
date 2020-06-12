@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1EBAAD">
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginBottom="16dp"
+        android:background="#EE64BAB3"
+        android:text="@string/joining_an_activity_group.mp3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#9C27B0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/albumImage"
+        android:layout_width="match_parent"
+        android:layout_height="453dp"
+        android:contentDescription="@string/albumImage"
+        android:src="@drawable/ic_baseline_audiotrack_24" />
+
+    <ImageView
+        android:id="@+id/playIcon"
+        android:layout_width="422dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/playIcon"
+        android:src="@drawable/ic_baseline_play_arrow_24" />
+
+</LinearLayout>
